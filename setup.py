@@ -30,5 +30,6 @@ setuptools.setup(
         'requests!=2.8.0,>=2.5.2',
         # >= 0.1.5 needed for HTTP_PROXY support
         'requests-unixsocket>=0.1.5',
+        'requests-toolbelt',
     ],
     pbr=True)
